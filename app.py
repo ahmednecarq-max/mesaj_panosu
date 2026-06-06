@@ -5,7 +5,7 @@ import psycopg2
 app = Flask(__name__)
 
 # Veritabanı bağlantı adresi ortam değişkeninden okunuyor
-DATABASE_URL = os.getenv("DATABASE_URL", " ")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://anonim_pano_db_user:QLNqRiQcHr82RdRRAWJ7zobhYwUJy4Ip@dpg-d8i5qartqb8s73aqe50g-a.frankfurt-postgres.render.com/anonim_pano_db ")
 
 # ---- HTML ŞABLONU ----
 HTML = """
